@@ -1,3 +1,80 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background: url(todoList.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#app {
+    height: 80vh;
+    width: 80%;
+    margin: 5% auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+/* HEADER */
+
+#appName {
+    height: 8%;
+    padding-left: 3%;
+    box-sizing: border-box;
+    background-color: rgb(49, 173, 132);
+}
+
+#appName h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+/* CONTENT */
+
+#projectsAndTasks {
+    height: 92%;
+    display: flex;
+}
+
+.projects {
+    box-sizing: border-box;
+    width: 30%;
+    background-color: rgba(128, 128, 128, 0.349);
+    padding: 3%;
+}
+
+.projects h3 {
+    font-size: 35px;
+    font-weight: 100;
+    color: rgb(49, 173, 132);
+    margin-bottom: 10px;
+}
+
+.projects h3:hover {
+    color: orange;
+    font-size: 40px;
+    transition-duration: 0.7s;
+}
+
+.projects h2 {
+    font-size: 40px;
+    font-weight: 100;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.projects h2:hover {
+    color: white;
+    font-size: 40px;
+    transition-duration: 0.7s;
+}
+
+.projectList {
+    box-sizing: border-box;
+    height: 300px;
+    padding: 5%;
+    background-color: white;
 }
